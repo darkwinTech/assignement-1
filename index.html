@@ -11,12 +11,11 @@
   <div id ="header">
       <div class="container">
           <nav>
-              <img src="assets/images/2.png" class="logo" alt="logo"/>
               <ul>
                   <li> <a href="#"> Home </a></li>
-                  <li> <a href="#"> About </a></li>
-                  <li> <a href="#"> Projects </a></li>
-                  <li> <a href="#"> Contact </a></li>
+                  <li> <a href="#about"> About </a></li>
+                  <li> <a href="#projects"> Projects </a></li>
+                  <li> <a href="#contact"> Contact </a></li>
               </ul>
           </nav>
           <div class = "header-text">
@@ -35,13 +34,77 @@
                   <h2 class="subtitle">About Me</h2>
                   <p>My name is Aleen, and I am a Software Engineering student at KFUPM.
                       I am passionate about full-stack development, with a strong interest in building modern, efficient, and user-friendly applications.
-                      I am ambitious, motivated, and always eager to learn new technologies that can help me grow as a developer and contribute to impactful projects</p>
+                      I am ambitious, motivated, and always eager to learn new technologies that can help me grow as a developer and contribute to impactful projects.</p>
+
+                  <div class="tab-titles">
+                      <p class="tab-links active-link">Education & Skills</p>
+                  </div>
+
+                  <!-- New tab-contents -->
+                  <div class="tab-contents active-tab">
+                      <ul>
+                          <li><span>KFUPM Junior Student</span> <br> Major: Software Engineering</li>
+                          <li><span>UI/UX</span> <br> Beginner</li>
+                          <li><span>Java</span> <br> Experienced</li>
+                          <li><span>Python</span> <br> Experienced</li>
+                          <li><span>HTML</span> <br> Learner</li>
+                          <li><span>CSS</span> <br> Learner</li>
+                          <li><span>JavaScript</span> <br> Learner</li>
+                      </ul>
+                  </div>
+
               </div>
           </div>
       </div>
   </div>
-    <header>
-      <h1>assignment-1</h1>
-    </header>
+  <section id="projects">
+      <div class="container">
+          <h2 class="subtitle">Projects</h2>
+          <div class="projects-grid">
+              <article class="project-card">
+                  <img src="assets/images/placeholder.png" alt="Project One screenshot">
+                  <h3>Project One</h3>
+                  <p>A short description of what this project does and the tech used.</p>
+                  <a class="btn" href="#" target="_blank" rel="noopener">View Project</a>
+              </article>
+              <article class="project-card">
+                  <img src="assets/images/placeholder.png" alt="Project Two screenshot">
+                  <h3>Project Two</h3>
+                  <p>A short description of what this project does and the tech used.</p>
+                  <a class="btn" href="#" target="_blank" rel="noopener">View Project</a>
+              </article>
+          </div>
+      </div>
+  </section>
+
+  <section id="contact">
+      <div class="container">
+          <h2 class="subtitle">Contact</h2>
+          <form class="contact-form" action="#" method="post" novalidate>
+              <div class="form-row">
+                  <label>
+                      Name
+                      <input type="text" name="name" placeholder="Your name" required>
+                  </label>
+
+                  <label>
+                      Email
+                      <input type="email" name="email" placeholder="you@example.com" required>
+                  </label>
+              </div>
+
+              <label>
+                  Message
+                  <textarea name="message" rows="6" placeholder="Say hello…" required></textarea>
+              </label>
+
+              <p class="form-hint">All fields are required. You’ll see inline hints if something’s missing.</p>
+
+              <button type="submit" class="btn">Send</button>
+          </form>
+
+      </div>
+  </section>
+
   </body>
 </html>
