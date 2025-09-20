@@ -363,6 +363,64 @@ nav ul li a:hover::after { width: 100%; }
     .projects-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
+@media (max-width: 768px) {
+    /* Navigation: stack links vertically */
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin: 0; /* reset spacing */
+    }
+
+    /* About section: stack image and text */
+    .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-col-1,
+    .about-col-2 {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-col-1 img {
+        max-width: 250px;
+    }
+
+    .subtitle {
+        font-size: 36px; /* shrink big title */
+    }
+}
+
+/* For very small devices (phones under 480px) */
+@media (max-width: 480px) {
+    .header-text h1 {
+        font-size: 36px;
+    }
+
+    .header-text {
+        font-size: 20px;
+        margin-top: 40%;
+        text-align: center;
+    }
+
+    nav ul {
+        gap: 8px;
+    }
+}
+
 .project-card {
     background: rgba(255,255,255,0.06);
     border: 1px solid rgba(255,255,255,0.15);
