@@ -539,7 +539,7 @@ a { color: inherit; }
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background-image: url('../assets/images/1.png');
+    background-image: url('assets/Aleen AlQarni.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -599,7 +599,7 @@ a { color: inherit; }
     display: grid; gap: 2rem; grid-template-columns: 1fr;
 }
 .profile {
-    width: 240px; height: 240px; object-fit: cover; border-radius: 16px; border: 6px solid rgba(255,255,255,0.1);
+    width: 400px; height: 500px; object-fit: cover; border-radius: 16px; border: 6px solid rgba(255,255,255,0.1);
     display: block; margin-inline: auto;
 }
 .about-col-2 { color: #ddd; }
@@ -706,4 +706,13 @@ label { display: grid; gap: 8px; font-size: 14px; color: #e8e8e8; }
 @media (max-width: 480px) {
     .header-text { margin-top: 24vh; text-align: center; }
     .header-text h1 { font-size: 2rem; }
+}
+
+.icon-btn svg path {
+    fill: #fff;        /* set to white */
+    transition: fill 0.3s ease;
+}
+
+.icon-btn:hover svg path {
+    fill: #ff004f;     /* change color on hover (your accent color) */
 }
