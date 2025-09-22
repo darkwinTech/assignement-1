@@ -11,6 +11,12 @@ For this assignment, I developed a responsive personal portfolio website using H
 * Projects Section – at least 2 projects with titles, short descriptions, and placeholder images.
 * Footer.
 
+## 🤖 AI Use (Short Summary)
+AI (ChatGPT) was used to:
+Rewrite my code in a clean, responsive way across devices.
+Guide me in structuring HTML, CSS, and JavaScript files.
+Debug layout issues (e.g., image alignment, navigation menu).
+
   ## 📂 Project Structure
 ```
 assignment-1/
