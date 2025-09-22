@@ -48,3 +48,4 @@ function openTab(event, tabId) {
 window.openTab = openTab;
 window.showSidebar = showSidebar;
 window.hideSidebar = hideSidebar;
+
