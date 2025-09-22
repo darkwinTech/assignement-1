@@ -1,6 +1,4 @@
-# assignment-1
-
-This repository contains a simple static website and documentation for **assignment-1**.
+# Aleen AlQarni – Personal Portfolio - Assignment 1
 
 ## Structure
 ```
@@ -19,5 +17,6 @@ assignment-1/
 └── .gitignore
 ```
 
-## Getting started
-Open `index.html` in your browser, or use a static server (e.g., `python -m http.server`).
+
+## 📌 Assignment Description
+For this assignment, I developed a responsive personal portfolio website using HTML, CSS, and JavaScript. The primary objective was to create a simple yet professional web application that highlights my skills and accomplishments while serving as the foundation of my professional portfolio. To enhance efficiency and creativity, I also utilized AI-assisted development tools throughout the design and implementation process.
