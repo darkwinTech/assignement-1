@@ -1,18 +1,3 @@
-// // Basic starter JS
-//
-//     var tablinks = document.getElementsByClassName('tab-links');
-//     var taccontents = document.getElementsByClassName('tab-contents');
-//     function openTab(tabname) {
-//     for (tablink of tablinks) {
-//     tablink.classList.remove("active-link");
-// }
-//     for (tabcontent of taccontents) {
-//     tabcontent.classList.remove("active-tab");
-// }
-//     event.currentTarget.classList.add("active-link");
-//     document.getElementById(tabname).classList.add("active-tab");
-// }
-
 // ===== Mobile drawer =====
 const sidebar = document.querySelector('.sidebar');
 
@@ -46,10 +31,6 @@ document.querySelectorAll('a[href^="#"]').forEach((a) => {
         window.scrollTo({ top, behavior: 'smooth' });
     });
 });
-
-// // ===== Footer year (optional) =====
-// const y = document.getElementById('year');
-// if (y) y.textContent = new Date().getFullYear();
 
 // ===== Simple tab logic (fixed your typos) =====
 const tabLinks = document.getElementsByClassName('tab-links');
