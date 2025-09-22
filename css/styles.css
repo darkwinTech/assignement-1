@@ -616,7 +616,7 @@ a { color: inherit; }
 .tab-contents.active-tab { display: block; }
 .tab-contents ul { padding-left: 1rem; }
 .tab-contents ul li { margin: .5rem 0; }
-.tab-contents ul li span { color: #ffb3c6; font-size: .95rem; font-weight: 700; }
+.tab-contents ul li span { color: #FF004FFF; font-size: .95rem; font-weight: 700; }
 
 /* PROJECTS */
 #projects { padding: 4rem 0; }
@@ -633,15 +633,7 @@ a { color: inherit; }
 .project-card img {
     width: 100%; display: block; border-radius: 10px; margin-bottom: 12px; height: 200px; object-fit: cover;
 }
-.project-card h3 { margin: .5rem 0 .25rem; }
-.btn {
-    display: inline-block; padding: 12px 18px; border-radius: 10px;
-    border: 1px solid #ff004f; color: #fff; background: #ff004f; font-weight: 600;
-    cursor: pointer; transition: filter .2s ease, transform .1s ease, box-shadow .2s ease;
-}
-.btn:hover { filter: brightness(1.06); box-shadow: 0 8px 20px rgba(255,0,79,0.25); }
-.btn:active { transform: translateY(1px); }
-.btn:focus-visible { box-shadow: 0 0 0 3px rgba(255,0,79,0.35); }
+.project-card h3 { margin: .5rem 0 .25rem; color: #FF004FFF; }
 
 /* CONTACT */
 #contact { padding: 4rem 0; }
@@ -655,7 +647,6 @@ a { color: inherit; }
 .form-row { display: grid; gap: 16px; grid-template-columns: 1fr; }
 label { display: grid; gap: 8px; font-size: 14px; color: #e8e8e8; }
 .full { grid-column: 1/-1; }
-.form-hint { font-size: 13px; color: #bdbdbd; }
 
 .contact-form input,
 .contact-form textarea {
@@ -674,6 +665,21 @@ label { display: grid; gap: 8px; font-size: 14px; color: #e8e8e8; }
 .contact-form textarea:focus-visible {
     border-color: #ff004f; box-shadow: 0 0 0 3px rgba(255,0,79,0.25); background: rgba(255,255,255,0.09);
 }
+.btn {
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: 10px;
+    border: 1px solid #ff004f;
+    color: #fff;
+    background: #ff004f;
+    font-weight: 600;
+    cursor: pointer;
+    transition: filter .2s ease, transform .1s ease, box-shadow .2s ease;
+}
+.btn:hover { filter: brightness(1.06); box-shadow: 0 8px 20px rgba(255,0,79,0.25); }
+.btn:active { transform: translateY(1px); }
+.btn:focus-visible { box-shadow: 0 0 0 3px rgba(255,0,79,0.35); }
+
 
 /* FOOTER */
 .site-footer { border-top: 1px solid rgba(255,255,255,0.12); padding: 2rem 0; }
