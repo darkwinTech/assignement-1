@@ -10,6 +10,9 @@ For this assignment, I developed a responsive personal portfolio website using H
 * Projects Section - 2 projects.
 * Projects Section – at least 2 projects with titles, short descriptions, and placeholder images.
 * Footer.
+  
+## 💻🖱️ Setup instructions
+Click the blue Code button in the repository, copy the HTTPS URL, paste it into your IDE (e.g., VS Code), and then select Trust Project.
 
 ## 🤖 AI Use (Short Summary)
 AI (ChatGPT) was used to:
@@ -17,7 +20,7 @@ Rewrite my code in a clean, responsive way across devices.
 Guide me in structuring HTML, CSS, and JavaScript files.
 Debug layout issues (e.g., image alignment, navigation menu).
 
-  ## 📂 Project Structure
+## 📂 Project Structure
 ```
 assignment-1/
 ├── README.md
