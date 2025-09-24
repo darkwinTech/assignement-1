@@ -1,18 +1,20 @@
 # Technical Documentation
+### Student Name: Aleen AlQarni
 
 ## Overview
-Briefly explain the purpose and functionality of this project.
+
+The purpose of this project is to create a responsive personal portfolio website that presents my skills, education, and projects in a professional way. It functions as an online portfolio where visitors can learn more about me, view my work, and navigate easily across sections.
 
 ## Setup
-- Open `index.html` in a browser, or run a static server.
-- Edit `css/styles.css` and `js/script.js`.
+- Webstorm 
+- Github
+- Chrome
 
-## File Structure
-- `index.html`: Main page
-- `css/styles.css`: Styles
-- `js/script.js`: JavaScript
-- `assets/images/`: Images
-- `docs/`: Documentation
+## Subscriptions and Accounts
+- Github account 
+- AI tool: ChatGPT 
 
-## Future Work
-- TODOs, improvements, notes.
+## Tutorials and Learning Resources
+- W3schools
+- Zybook
+- youtube tutorials
