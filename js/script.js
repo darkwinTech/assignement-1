@@ -1,22 +1,19 @@
 // ===== Mobile drawer =====
 const sidebar = document.querySelector('.sidebar');
-
+// grab the sidebar element so later we can show/hide it
 function showSidebar() {
+    // Show the sidebar (mobile menu)
     sidebar.classList.add('show');
     sidebar.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
 }
 
 function hideSidebar() {
+    // Hide the sidebar (mobile menu)
     sidebar.classList.remove('show');
     sidebar.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
 }
-
-// Close on ESC
-document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && sidebar.classList.contains('show')) hideSidebar();
-});
 
 // ===== Smooth scroll with fixed-nav offset =====
 const NAV_HEIGHT = 76;
