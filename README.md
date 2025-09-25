@@ -8,7 +8,6 @@ For this assignment, I developed a responsive personal portfolio website using H
 * Navigation Bar – sticky header with smooth scrolling and a mobile hamburger sidebar.
 * About Me Section – short bio, education & skills list.
 * Projects Section - 2 projects.
-* Projects Section – at least 2 projects with titles, short descriptions, and placeholder images.
 * Footer.
   
 ## 💻🖱️ Setup instructions
